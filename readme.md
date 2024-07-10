@@ -28,3 +28,11 @@ Array
         )
 
 )
+
+Folder and tools descriptions:
+/olymptrade-market-data-dumper/ is for obtains market data in 15 menutes each and chrome will save the json (to be downloaded)
+/olymptrade-trading-bot-chrome-extension/ is for Trading, after we have the best parameters (already sets).
+/backtesting-using-php/ is for backtesting, after we have the market dump data (in json).
+
+Please note, although best parameters from backtesting is used, the chrome extension seem still highly possible to Loss balance to under 2000 from 10000 with using 500 for each trading (Demo Balance).
+Please becareful to trading with your REAL Money!
