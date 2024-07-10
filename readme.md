@@ -42,3 +42,28 @@
             )
 
     )
+
+
+## OR this:
+
+    Array
+    (
+        [final_balance] => 25025
+        [trade_count] => 327
+        [correct_trades] => 193
+        [incorrect_trades] => 134
+        [parameters] => Array
+            (
+                [rsiPeriod] => 7
+                [atrPeriod] => 33
+                [bollingerPeriod] => 20
+                [upperLimitPercent] => 1
+                [lowerLimitPercent] => 1
+                [initialBalance] => 10000
+                [tradeAmount] => 500
+                [rsi_low] => 10
+                [rsi_high] => 80
+                [atr_min] => 0.03
+            )
+
+    )
