@@ -8,9 +8,9 @@
 
 ## /backtesting-using-php/ is for backtesting, after we have the market dump data (in json).
 
-# Please note, although best parameters from backtesting is used, the chrome extension seem still highly possible to Loss balance to under 2000 from 10000 with using 500 for each trading (Demo Balance).
+## Please note, although best parameters from backtesting is used, the chrome extension seem still highly possible to Loss balance to under 2000 from 10000 with using 500 for each trading (Demo Balance).
 
-# Please becareful to trading with your REAL Money.
+## Please becareful to trading with your REAL Money.
 
 
 ### [initialBalance] => 10000
@@ -19,7 +19,7 @@
 
 ### The highest final_balance is: 19925
 
-### The best data is:
+### The best config/parameters is:
 
     Array
     (
