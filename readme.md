@@ -13,13 +13,13 @@
 # Please becareful to trading with your REAL Money.
 
 
-# [initialBalance] => 10000
-# [tradeAmount] => 500
-# Asset: ASIA_X (Asia Composite Index)
+### [initialBalance] => 10000
+### [tradeAmount] => 500
+### Asset: ASIA_X (Asia Composite Index)
 
-# The highest final_balance is: 19925
+### The highest final_balance is: 19925
 
-# The best data is:
+### The best data is:
 
     Array
     (
