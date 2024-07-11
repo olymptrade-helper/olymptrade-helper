@@ -23,14 +23,14 @@
 
     Array
     (
-        [final_balance] => 24625
-        [trade_count] => 424
-        [correct_trades] => 245
-        [incorrect_trades] => 179
+        [final_balance] => 27550
+        [trade_count] => 198
+        [correct_trades] => 126
+        [incorrect_trades] => 72
         [parameters] => Array
             (
                 [rsiPeriod] => 7
-                [atrPeriod] => 31
+                [atrPeriod] => 34
                 [bollingerPeriod] => 20
                 [upperLimitPercent] => 1
                 [lowerLimitPercent] => 1
@@ -38,7 +38,7 @@
                 [tradeAmount] => 500
                 [rsi_low] => 14
                 [rsi_high] => 80
-                [atr_min] => 0.03
+                [atr_min] => 0.031
             )
 
     )
