@@ -43,7 +43,7 @@
 
     )
 
-## OR this:
+## OR this (but incorrect_trades is too high = not good):
 
 
     Array
