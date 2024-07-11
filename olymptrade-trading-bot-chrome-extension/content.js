@@ -196,7 +196,12 @@ function connectWebSocket() {
         console.log("WSS time: " + nowWIB() + " WIB - rsi:", rsi);
         console.log("WSS time: " + nowWIB() + " WIB - atr:", atr);
         console.log("WSS time: " + nowWIB() + " WIB - price:", price);
-
+        // lets show config to console log to debugging, sometimes we need disabled and then re-enabled this chrome extension to makes change is applied, and refresh the Olymptrade page after code changes.
+        console.log("WSS time: " + nowWIB() + " WIB - RSI_PERIOD:", RSI_PERIOD);
+        console.log("WSS time: " + nowWIB() + " WIB - ATR_PERIOD:", ATR_PERIOD);
+        console.log("WSS time: " + nowWIB() + " WIB - rsi_high:", rsi_high);
+        console.log("WSS time: " + nowWIB() + " WIB - rsi_low:", rsi_low);
+        console.log("WSS time: " + nowWIB() + " WIB - atr_minimum:", atr_minimum);
         if (shouldTrade(rsi, price, upperBand, lowerBand, atr)) {
           const direction = price > lastTradePrice ? 'up' : 'down';
           clickTradeButton(direction, price, rsi, atr, upperBand, lowerBand);
