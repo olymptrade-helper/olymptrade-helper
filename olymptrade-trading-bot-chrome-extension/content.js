@@ -28,6 +28,7 @@ const RSI_PERIOD = 7; // Standard period for RSI
 const ATR_PERIOD = 37; // Standard period for ATR
 // let atr_minimum = 0.035;
 let atr_minimum = 0.031; // BEST atr_minimum according my test for 30 minutes period of DATA from dump json olymptrade price websocket
+let WSS_UIID = "LYAHMWGRBCPZQLGPCOQ" // you may change it with your own uiid or just random with Length and UPPERCASE random alphanumeric
 
 
 
@@ -149,7 +150,7 @@ function connectWebSocket() {
 
   socket.onopen = function() {
     const initMessages = [
-      JSON.stringify([{"t":2,"e":12,"uuid":"LYAHMWGRBCPZQLGPCOQ","d":[{"pair":asset_id}]}])
+      JSON.stringify([{"t":2,"e":12,"uuid":WSS_UIID,"d":[{"pair":asset_id}]}])
     ];
 
     initMessages.forEach((msg, index) => {
