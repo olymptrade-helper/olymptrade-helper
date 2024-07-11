@@ -23,6 +23,31 @@
 
     Array
     (
+        [final_balance] => 27800
+        [trade_count] => 179
+        [correct_trades] => 116
+        [incorrect_trades] => 63
+        [parameters] => Array
+            (
+                [rsiPeriod] => 7
+                [atrPeriod] => 37
+                [bollingerPeriod] => 20
+                [upperLimitPercent] => 1
+                [lowerLimitPercent] => 1
+                [initialBalance] => 10000
+                [tradeAmount] => 500
+                [rsi_low] => 14
+                [rsi_high] => 80
+                [atr_min] => 0.031
+            )
+
+    )
+
+## OR this:
+
+
+    Array
+    (
         [final_balance] => 27550
         [trade_count] => 198
         [correct_trades] => 126
@@ -39,31 +64,6 @@
                 [rsi_low] => 14
                 [rsi_high] => 80
                 [atr_min] => 0.031
-            )
-
-    )
-
-
-## OR this:
-
-    Array
-    (
-        [final_balance] => 25025
-        [trade_count] => 327
-        [correct_trades] => 193
-        [incorrect_trades] => 134
-        [parameters] => Array
-            (
-                [rsiPeriod] => 7
-                [atrPeriod] => 33
-                [bollingerPeriod] => 20
-                [upperLimitPercent] => 1
-                [lowerLimitPercent] => 1
-                [initialBalance] => 10000
-                [tradeAmount] => 500
-                [rsi_low] => 10
-                [rsi_high] => 80
-                [atr_min] => 0.03
             )
 
     )
