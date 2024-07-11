@@ -1,32 +1,31 @@
 console.log('Content script loaded: 5 seconds TRADING using bounce method only is better for now');
 
 // The best parameter is:
-// Array
-// (
-//     [final_balance] => 27550
-//     [trade_count] => 198
-//     [correct_trades] => 126
-//     [incorrect_trades] => 72
-//     [parameters] => Array
-//         (
-//             [rsiPeriod] => 7
-//             [atrPeriod] => 34
-//             [bollingerPeriod] => 20
-//             [upperLimitPercent] => 1
-//             [lowerLimitPercent] => 1
-//             [initialBalance] => 10000
-//             [tradeAmount] => 500
-//             [rsi_low] => 14
-//             [rsi_high] => 80
-//             [atr_min] => 0.031
-//         )
-
-// )
+  // Array
+  // (
+  //     [final_balance] => 27800
+  //     [trade_count] => 179
+  //     [correct_trades] => 116
+  //     [incorrect_trades] => 63
+  //     [parameters] => Array
+  //         (
+  //             [rsiPeriod] => 7
+  //             [atrPeriod] => 37
+  //             [bollingerPeriod] => 20
+  //             [upperLimitPercent] => 1
+  //             [lowerLimitPercent] => 1
+  //             [initialBalance] => 10000
+  //             [tradeAmount] => 500
+  //             [rsi_low] => 14
+  //             [rsi_high] => 80
+  //             [atr_min] => 0.031
+  //         )
+  // )
 
 let rsi_high = 80;
 let rsi_low = 14;
 const RSI_PERIOD = 7; // Standard period for RSI
-const ATR_PERIOD = 34; // Standard period for ATR
+const ATR_PERIOD = 37; // Standard period for ATR
 // let atr_minimum = 0.035;
 let atr_minimum = 0.031; // BEST atr_minimum according my test for 30 minutes period of DATA from dump json olymptrade price websocket
 
@@ -57,7 +56,6 @@ const BOLLINGER_PERIOD = 20; // Standard period for Bollinger Bands
 // const BOLLINGER_STD_DEV = 1.0; // Standard deviation for Bollinger Bands
 // const BOLLINGER_STD_DEV = 1.8; // BEST Standard deviation for Bollinger Bands according my test for 30 minutes period of DATA from dump json olymptrade price websocket
 const BOLLINGER_STD_DEV = 2.3; // BEST Standard deviation for Bollinger Bands according my test for 30 minutes period of DATA from dump json olymptrade price websocket
-
 const CUSTOM_MINUTE = 2 * 60 * 1000; // 60 seconds
 
 
