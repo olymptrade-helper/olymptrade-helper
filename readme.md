@@ -98,9 +98,9 @@
     )
 	
 	
-## Conclusion
+# Conclusion
 
-# after trial and error, even using Very Fast Dedicated Server rented in Europe (for very Fast click trade response to Olymptrade server), to try any best Config from my BackTesting, its still always losses, no matter what best setting I try.
-# no luck until now!
-# if you doubt with my negative trading result, PLEASE TRY YOURSELF! try using Demo Account for atleast 2 Weeks - 1 Month and See Your Result when using Best config from back testing.
-# Be Safe with your money.
+## after trial and error, even using Very Fast Dedicated Server rented in Europe (for very Fast click trade response to Olymptrade server), to try any best Config from my BackTesting, its still always losses, no matter what best setting I try.
+## no luck until now!
+## if you doubt with my negative trading result, PLEASE TRY YOURSELF! try using Demo Account for atleast 2 Weeks - 1 Month and See Your Result when using Best config from back testing.
+## Be Safe with your money.
