@@ -43,27 +43,30 @@
 
     )
 
-## OR this (but incorrect_trades is too high = not good):
+## OR this:
 
 
+    The highest final_balance is: 17575
+    The highest highest_winrate is: 19
+    The best parameter is:
     Array
     (
-        [final_balance] => 29050
-        [trade_count] => 491
-        [correct_trades] => 286
-        [incorrect_trades] => 205
+        [final_balance] => 17575
+        [trade_count] => 20
+        [correct_trades] => 19
+        [incorrect_trades] => 1
         [parameters] => Array
             (
                 [rsiPeriod] => 7
-                [atrPeriod] => 39
+                [atrPeriod] => 33
                 [bollingerPeriod] => 20
                 [upperLimitPercent] => 1
                 [lowerLimitPercent] => 1
                 [initialBalance] => 10000
                 [tradeAmount] => 500
                 [rsi_low] => 14
-                [rsi_high] => 60
-                [atr_min] => 0.031
+                [rsi_high] => 100
+                [atr_min] => 0.033
             )
 
     )
