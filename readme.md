@@ -71,32 +71,6 @@
 
     )
 
-## and highest final balance with ZERO incorrect_trades is:
-
-    The highest final_balance is: 14250
-    The best parameter is:
-    Array
-    (
-        [final_balance] => 14250
-        [trade_count] => 10
-        [correct_trades] => 10
-        [incorrect_trades] => 0
-        [parameters] => Array
-            (
-                [rsiPeriod] => 7
-                [atrPeriod] => 37
-                [bollingerPeriod] => 20
-                [upperLimitPercent] => 1
-                [lowerLimitPercent] => 1
-                [initialBalance] => 10000
-                [tradeAmount] => 500
-                [rsi_low] => 14
-                [rsi_high] => 100
-                [atr_min] => 0.034
-            )
-
-    )
-	
 	
 # Conclusion
 
